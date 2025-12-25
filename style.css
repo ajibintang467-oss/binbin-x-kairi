@@ -1,0 +1,53 @@
+body {
+  background: #0f172a;
+  color: #f8fafc;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #020617;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 100px;
+  text-align: center;
+  background: linear-gradient(135deg,#6c7892,#060a14);
+}
+
+.content {
+  padding: 50px;
+}
+
+.info-box {
+  background: #1e293b;
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 5px solid #071f29;
+}
+
+.warning {
+  border-left: 5px solid #f87171;
+}
+
+.fade-up {
+  animation: fadeUp 1.3s ease;
+}
+
+@keyframes fadeUp {
+  from {opacity:0; transform:translateY(30px);}
+  to {opacity:1; transform:translateY(0);}
+}
